@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação</title>
+    <style>
+        h1{
+            background-color: #939393;
+            font-family:  ;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Formatação de Texto</h1>
+    <form action="cores.php" method="get">
+
+    <label for="itexto">Insira seu texto:</label>
+    <input type="text" name="texto" id="itexto">
+    <br>
+
+    <label for="itamanho">Tamanho da Fonte:</label>
+        <select name="tamanho" id="itamanho">
+
+            <option value="8pt">8</option>
+            <option value="10pt">10</option>
+            <option value="14pt">14</option>
+            <option value="20pt">20</option>
+            <option value="40pt">40</option>
+
+
+        </select>
+        <br>
+
+        <label for="icor">Escolha a Cor</label>
+        <input type="color" name="cor" id="icor">
+        <br>
+        
+        <br>
+        <label for="textoa">Escolhao tipo de Texto</label>
+        <select name="textoa" id="textoa">
+
+            <option value="arial">arial</option>
+            <option value="verdana">verdana</option>
+            <option value="Cambria">cambria</option>
+            <option value="Gill sans">Gill sans</option>
+            <option value="Impact">impact</option>
+
+
+        </select>
+        <br>
+        <label for="aff">Escolha o Tipo de fundo</label>
+        <input type="color" name="aff" id="aff">
+        <br>
+        <label for="ach">Escolhao tipo de Texto</label>
+        <select name="ach" id="ach">
+
+            <option value="10pt">10pt</option>
+            <option value="20pt">20pt</option>
+            <option value="30pt">30pt</option>
+            <option value="40pt">40pt</option>
+            <option value="50pt">50pt</option>
+
+
+        </select>
+
+
+
+
+
+
+
+
+
+        <input type="submit" value="Gerar">
+    </form>--
+</body>
+</html>
